@@ -1,8 +1,15 @@
  
-export default function Home() {
+ import Sidebar from "@/components/sidebar/Sidebar";
+import Top from "@/components/top/Top";
+ 
+ export default function Home() {
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-<h1>coucou</h1>
+    <main className="bg-zinc-900 min-h-screen  flex flex-col">
+      <Top/>
+      <Sidebar/>
+       
+       
     </main>
   );
 }
