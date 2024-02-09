@@ -1,3 +1,5 @@
+import PreviewBtn from "../PreviewBtn";
+
 export default function Top() {
  
   return (
@@ -6,8 +8,8 @@ export default function Top() {
         <h1 className="w-full text-slate-100 text-2xl">
           <span className="text-base">My</span> Little IDE
         </h1>
-        <div className="w-full">
-          <button>prev</button>
+        <div className="w-full text-center">
+          <PreviewBtn/>
         </div>
         <div className="w-full flex">
           <div className="ml-auto mr-2">

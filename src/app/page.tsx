@@ -1,5 +1,5 @@
  
- import Sidebar from "@/components/sidebar/Sidebar";
+ import Playground from "@/components/playground/Playground";
 import Top from "@/components/top/Top";
  
  export default function Home() {
@@ -7,7 +7,7 @@ import Top from "@/components/top/Top";
   return (
     <main className="bg-zinc-900 min-h-screen  flex flex-col">
       <Top/>
-      <Sidebar/>
+      <Playground/>
        
        
     </main>
